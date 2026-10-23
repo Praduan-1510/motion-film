@@ -1,0 +1,3 @@
+# LF everywhere (shell scripts break with CRLF), CRLF only for Windows batch files
+* text=auto eol=lf
+*.cmd text eol=crlf

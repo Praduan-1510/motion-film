@@ -1,0 +1,14 @@
+{
+  "name": "motion-film-marketplace",
+  "description": "The motion-film skill: brand films, product promos and data explainers rendered in code for any brand.",
+  "owner": {
+    "name": "motion-film maintainers"
+  },
+  "plugins": [
+    {
+      "name": "motion-film",
+      "source": "./plugins/motion-film",
+      "description": "Heavy motion-graphics marketing videos for any brand, from a brand kit and a short brief."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# motion-film command line (see mf.py); on Windows mf.cmd does the same
+# (each candidate is tried, because Windows ships a "python3" stub that only opens the Microsoft Store)
+for c in python3 python; do
+  if command -v "$c" >/dev/null 2>&1 && "$c" -c "import sys" >/dev/null 2>&1; then exec "$c" "$(dirname "$0")/mf.py" "$@"; fi
+done
+echo "mf: Python 3.10+ not found" >&2; exit 1

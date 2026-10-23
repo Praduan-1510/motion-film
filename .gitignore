@@ -1,0 +1,16 @@
+# Development material from a client production (regression fixtures, the original pipeline, recovered session tools,
+# the internal roadmap). It stays out of this public repository; see "Developing" in README.md.
+examples/
+fixtures/
+tools/
+tests/
+docs/
+
+# render scratch: sub-frames, merged frames, stills
+work/
+out/
+
+__pycache__/
+node_modules/
+.DS_Store
+Thumbs.db
