@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://praduan-1510.github.io/motion-film/sitemap.xml
