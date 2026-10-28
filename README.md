@@ -9,7 +9,7 @@ renders any frame as a pure function of time, headless Chrome captures motion-bl
 with the score. One installation serves every client; each client's look comes from their brand kit, which stays in your
 project.
 
-Website: [praduan-1510.github.io/motion-film](https://praduan-1510.github.io/motion-film/) · Licence: MIT
+Website: [motion-film.praduansaha.com](https://motion-film.praduansaha.com/) · Licence: MIT
 
 ## Install
 
