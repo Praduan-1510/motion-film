@@ -1,10 +1,15 @@
-# motion-film
+# motion-film: a Claude Code skill for motion-graphics videos
 
-A Claude Code plugin (in development, v0.1) that makes heavy motion-graphics marketing videos for any brand from its
-brand kit and a short brief: brand films, product promos and data explainers. Films are drawn in code: an HTML page
+![A 3D character leaps out of the word "code.", from a 45 s brand film made with motion-film](.github/preview.png)
+
+**motion-film** is an open-source Claude Code skill (a plugin, in development, v0.1) for making heavy motion-graphics
+videos in code: brand films, product promos and data explainers, with kinetic type, Liquid Glass UI, a travelling
+mascot, real motion blur and a synthesized score, exported as MP4. No After Effects and no timeline: an HTML page
 renders any frame as a pure function of time, headless Chrome captures motion-blurred frames, and ffmpeg encodes them
-with a synthesized score. One installation serves every client; each client's look comes from their brand kit, which
-stays in your project.
+with the score. One installation serves every client; each client's look comes from their brand kit, which stays in your
+project.
+
+Website: [praduan-1510.github.io/motion-film](https://praduan-1510.github.io/motion-film/) · Licence: MIT
 
 ## Install
 
